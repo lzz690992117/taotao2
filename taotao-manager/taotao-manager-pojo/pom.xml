@@ -8,4 +8,11 @@
   </parent>
   <artifactId>taotao-manager-pojo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+			<dependency>
+		<groupId>com.github.pagehelper</groupId>
+	<artifactId>pagehelper</artifactId>
+	<version>3.4.2-fix</version>
+		</dependency>
+	</dependencies>
 </project>

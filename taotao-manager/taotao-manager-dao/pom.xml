@@ -43,6 +43,11 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 		</dependency>
+		<dependency>
+		<groupId>com.github.pagehelper</groupId>
+	<artifactId>pagehelper</artifactId>
+	<version>3.4.2-fix</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<!-- 如果不配置mybatis的配置文件会漏掉 -->
