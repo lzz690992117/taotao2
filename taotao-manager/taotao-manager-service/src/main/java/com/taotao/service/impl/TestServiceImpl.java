@@ -1,0 +1,21 @@
+package com.taotao.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.alibaba.dubbo.config.annotation.Service;
+import com.taotao.mapper.TestMapper;
+import com.taotao.service.TestService;
+
+@org.springframework.stereotype.Service
+public class TestServiceImpl implements TestService {
+
+@Autowired
+private TestMapper mapper;
+	
+	@Override
+	public String queryNow() {
+		// TODO Auto-generated method stub
+		return mapper.queryNow();
+	}
+
+}
