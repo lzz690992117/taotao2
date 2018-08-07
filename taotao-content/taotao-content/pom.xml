@@ -10,8 +10,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>taotao-content-interface</module>
-  	<module>taotao-content-service</module>
+  	<module>../taotao-content-interface</module>
+  	<module>../taotao-content-service</module>
   </modules>
   <dependencies>
 		<dependency>
